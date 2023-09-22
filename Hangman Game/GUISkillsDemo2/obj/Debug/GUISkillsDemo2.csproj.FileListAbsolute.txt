@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.Hangman_Form.resources
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.Properties.Resources.resources
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\bin\Debug\GUISkillsDemo2.exe.config
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\bin\Debug\GUISkillsDemo2.exe
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\bin\Debug\GUISkillsDemo2.pdb
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.exe
+C:\Users\User\source\repos\GUISkillsDemo2\GUISkillsDemo2\obj\Debug\GUISkillsDemo2.pdb
