@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../partials/head'); %>
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main role="main" class="inner cover">
+        <section class="row">
+          <h1>Home</h1>
+        </section>
+        <hr>
+        <section class="content">
+          <% if(isLoggedIn){ %>
+            <h3 style="height:100px;">Welcome back <%= user%>!</h3>
+          <% } else { %>
+            <h3>Welcome to CR Blogs!</h3>
+            <h3 style="height:100px;">Sign in or Register to start creating blogs, and see another bloggers work!</h3>
+          <%}%>
+          <img src="http://localhost:3000/images/blog_illustration.jpg", title="Blog illustration",alt="Blog illustration"/>
+        </section>
+      </main>
+      <%- include('../partials/footer'); %>
+    </div>
+  </body>
+</html>
+

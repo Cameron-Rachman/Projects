@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../partials/head'); %>
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main role="main" class="inner cover">
+        <section class="row">
+          <h1>Create</h1>
+        </section>
+        <hr>
+        <% if(isLoggedIn){ %>
+          <section class="content">
+              <form autocomplete="off" action = "/create" method="POST">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-5">
+                              <% if (errorMessage) { %>
+                                  <h6 class = "errorMessage"><%= errorMessage %></h6>
+                              <% } %>
+                              <%- include('../partials/creationForm'); %>
+                              <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                  <a href="/" class="btn btn-secondary">Cancel</a>
+                                  <button type="submit" class="btn btn-primary">Create</button>
+                              </div>
+                          </div>                       
+                      </div>
+                  </div>
+              </form>
+            <img src="http://localhost:3000/images/blog_illustration.jpg", title="Blog illustration",alt="Blog illustration"/>
+          </section>
+        <% } else { %>
+          <h3>You are not Logged In!</h1>
+          <h3>To start creating you must first have an account</h3>
+          <h3>Click Log in on the top left of your screen to sign in or register for an account</h3>
+        <%}%>
+      </main>
+      <%- include('../partials/footer'); %>
+    </div>
+  </body>
+</html>
