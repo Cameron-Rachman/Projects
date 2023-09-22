@@ -2,6 +2,8 @@
 
 Asteroid Game - Algorithm for a "ship" to move and avoid obstacles (Press and hold enter to make the ship move)
 
+Blog Project - Contains two folders, one with a full zipped project, and a folder containing the javascript/ejs files for ease of reading
+
 Hangman Game - Hangman game where a user must guess a word using a GUI interface
 
 OOA Project - Analysis of a music academy including a visual paradigm project as well as a word report
